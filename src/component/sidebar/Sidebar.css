@@ -1,9 +1,6 @@
 .navigation {
-  display: flex;
-  flex-direction: column;
   width: 250px;
   background-color: white;
-  height: 100%;
 }
 .headerNav {
   display: grid;
@@ -11,6 +8,9 @@
   justify-content: center;
   align-items: center;
   background-color: chartreuse;
+  position: fixed;
+  top: 0;
+  width: 200px;
 }
 .imageLogo {
   height: 60px;
@@ -27,26 +27,24 @@
   font-weight: bold;
   font-size: 18px;
 }
-.mainNvigation {
-  text-align: center;
-  align-items: center;
+.mainNavigation {
   height: calc(100vh - 70px);
   color: #fff;
-  overflow-y: auto;
+  overflow-y:  scroll;
 }
 .navNavigation ul {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+ 
 }
 .navigationItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 10px;
 }
-.navigationItem span:first-child {
-  text-align: right;
+.navigationItem span:last-child {
+  margin-right: 10px;
   display: block;
   font-family: IRANSansWeb;
 }

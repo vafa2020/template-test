@@ -1,11 +1,11 @@
 import { logo } from "../../file";
 import { GrUserManager } from "react-icons/gr";
-import "./Navigation.css";
+import "./Sidebar.css";
 
-const Navigation = () => {
+const Sidebar = () => {
   const createLi = () => {
     const list = [];
-    for (let i = 0; i < 14; i++) {
+    for (let i = 0; i < 20; i++) {
       const element = (
         <li className="navigationItem">
           <span>
@@ -38,4 +38,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Sidebar;
