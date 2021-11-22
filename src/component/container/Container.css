@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-top: 10px;
+}
+.boxSeachContainer {
+  margin-top: 10px;
+  position: relative;
+}
+.inputSearchContainer {
+  width: 250px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.button {
+  background-color: rgb(2, 209, 2);
+  padding: 8px 25px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  right: 165px;
+  top: 2px;
+  font-weight: bold;
+}
+.iconButtonSearch {
+  position: absolute;
+  right: 172px;
+  top: 10px;
+  color: white;
+}
+.mainContainer {
+  width: 100%;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+}
+.box {
+  width: 280px;
+  height: 150px;
+  background-color: white;
+  margin-top: 2px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px 0;
+}
+.paginate {
+  margin-top: 30px;
+}
+.paginateItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paginateItems li {
+  padding: 0 10px;
+  cursor: pointer;
+
+}
+.paginateItems li:hover {
+  border: 2px solid black;
+  border-radius: 5px;
+  
+}
+.paginateItems li:last-child {
+  padding: 0;
+}
+.paginateItems li:first-child {
+  padding: 0;
+}
