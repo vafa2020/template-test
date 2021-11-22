@@ -1,7 +1,8 @@
 import { BiBell, BiSearchAlt2 } from "react-icons/bi";
 import { RiWechatLine } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
-import { support } from "../file";
+import { support } from "../../file";
+import "./Header.css"
 const Header = () => {
   return (
     <header className="header">

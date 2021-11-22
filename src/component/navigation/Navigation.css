@@ -1,4 +1,57 @@
 .navigation {
-  width: 300px;
-  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: white;
+  height: 100%;
+}
+.headerNav {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  background-color: chartreuse;
+}
+.imageLogo {
+  height: 60px;
+}
+.headerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 5px;
+}
+.headerText span:last-child {
+  color: #ccc;
+  margin-top: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.mainNvigation {
+  text-align: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+  color: #fff;
+  overflow-y: auto;
+}
+.navNavigation ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.navigationItem {
+  padding: 10px;
+}
+.navigationItem span:first-child {
+  text-align: right;
+  display: block;
+  font-family: IRANSansWeb;
+}
+@media screen and (max-width: 992px) {
+  .navigation {
+    display: none;
+  }
 }

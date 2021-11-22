@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  height: 60px;
+  background-color: white;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+.navLeft {
+  display: flex;
+}
+.boxSearch {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.searchNav {
+  display: block;
+  width: 200px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f6f6f6;
+  border: none;
+  padding: 8px 20px;
+  font-size: 15px;
+}
+.iconSearch {
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  font-size: 15px;
+}
+
+.navRight ul {
+  display: flex;
+  align-items: center;
+}
+.navRight ul li {
+  padding: 0 15px;
+  border-right: 2px solid blue;
+}
+.navRight ul li:nth-child(2) {
+  border-right: none;
+}
+.navRight ul li:first-child {
+  border-right: none;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subText {
+  color: rgb(230, 230, 230);
+}
+.itemText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.support {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(2, 93, 129);
+}

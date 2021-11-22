@@ -41,6 +41,25 @@
   grid-template-columns: 300px 300px 300px 300px;
   grid-column-gap: 5px;
   grid-row-gap: 10px;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 688px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    justify-content: center;
+  }
 }
 .box {
   width: 280px;
