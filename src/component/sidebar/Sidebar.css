@@ -106,13 +106,7 @@
     overflow-y: auto;
     color: #fff;
   }
-  .navNavigation {
-    /* position: fixed;
-    width: 298px;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto; */
-  }
+  
   .navNavigation ul {
     display: flex;
     flex-direction: column;
