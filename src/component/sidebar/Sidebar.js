@@ -5,7 +5,7 @@ import "./Sidebar.css";
 const Sidebar = () => {
   const createLi = () => {
     const list = [];
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 14; i++) {
       const element = (
         <li className="navigationItem">
           <span>
