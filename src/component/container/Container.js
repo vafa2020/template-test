@@ -23,7 +23,9 @@ const Container = () => {
           <BiSearchAlt2 />
         </span>
       </div>
-      <div className="mainContainer">{createDiv()}</div>
+      <div>
+        <div className="mainContainer">{createDiv()}</div>
+      </div>
       <div className="paginate">
         <ul className="paginateItems">
           <li>
